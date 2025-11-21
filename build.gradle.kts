@@ -4,7 +4,7 @@ plugins {
 
 base {
     archivesName = properties["archives_base_name"] as String
-    version = libs.versions.mod.version.get()
+    version = "1.5"
     group = properties["maven_group"] as String
 }
 

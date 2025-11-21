@@ -1,12 +1,11 @@
 {
+  "id": "autofarm",
+  "name": "AutoFarm Addon",
+  "description": "Automatically farms fully grown crops and replants them.",
+  "authors": [ "Jawsh" ],
+
   "schemaVersion": 1,
-  "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
-  "authors": [
-    "seasnail"
-  ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
   },
@@ -14,12 +13,9 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.jawsh.autofarm.AutoFarmAddon"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
     "meteor-client:color": "225,25,25",
     "modmenu": {
